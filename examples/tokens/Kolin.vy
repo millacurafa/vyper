@@ -1,6 +1,4 @@
-# @dev Implementation of ERC-20 token standard.
-# @author Takayuki Jimba (@yudetamago)
-# https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
+# @author Felipe A. Millacura (@MillacuraFA)
 
 Transfer: event({_from: indexed(address), _to: indexed(address), _value: uint256})
 Approval: event({_owner: indexed(address), _spender: indexed(address), _value: uint256})
